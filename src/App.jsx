@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Header from './component/Header/Header'
 import Blogs from './component/Blogs/Blogs'
+import Bookmarks from './component/Bookmarks/Bookmarks'
 
 
 
@@ -10,8 +11,16 @@ function App() {
 
   return (
     <>
-      <Header></Header>
-      <Blogs></Blogs>
+
+    <div className="container mx-auto px-4">
+        <Header></Header>
+
+        <div className=" md:flex ">
+            <Blogs></Blogs>
+            <Bookmarks></Bookmarks>
+        </div>
+    </div> 
+
     </>
   )
 }
