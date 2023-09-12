@@ -15,7 +15,7 @@ function App() {
     <div className="container mx-auto px-4">
         <Header></Header>
 
-        <div className=" md:flex ">
+        <div className=" md:flex gap-5">
             <Blogs></Blogs>
             <Bookmarks></Bookmarks>
         </div>
