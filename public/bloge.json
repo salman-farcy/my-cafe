@@ -1,50 +1,50 @@
 [
      {
        "id": "1",
-       "cover": "../src/assets/images/4.jpg",
-       "title": "Lorem Ipsum Dolor Sit Amet",
+       "cover": "https://i.ibb.co/mSZtgg6/2.png",
+       "title": " Lorem Ipsum Dolor Sit Amet , Lorem Ipsum Dolor Sit Amet",
        "author": "John Doe",
-       "authorim": "../src/assets/images/boy1.png",
+       "authorim": "https://i.ibb.co/tH0PTDf/boy1.png",
        "postdate": "September 12, 2023",
        "readingtime": 10,
        "hashtags": ["webdev", "programming", "LoremIpsum"]
      },
      {
        "id": "2",
-       "cover": "../src/assets/images/1.jpg",
+       "cover": "https://i.ibb.co/rdYSFhY/1.jpg",
        "title": "A Guide to JSON Data",
        "author": "Jane Smith",
-       "authorim": "../src/assets/images/boy2.png",
+       "authorim": "https://i.ibb.co/kqzsQ0N/girl2.jpg",
        "postdate": "September 11, 2023",
        "readingtime": 8,
        "hashtags": ["JSON", "data", "guide"]
      },
      {
        "id": "3",
-       "cover": "../src/assets/images/2.png",
+       "cover": "https://i.ibb.co/mSs48cH/3.png",
        "title": "Creating Responsive Websites",
        "author": "David Williams",
-       "authorim": "../src/assets/images/girl1.jpg",
+       "authorim": "https://i.ibb.co/Y8nf6kx/boy2.jpg",
        "postdate": "September 10, 2023",
        "readingtime": 15,
        "hashtags": ["webdesign", "responsive", "tips"]
      },
      {
        "id": "4",
-       "cover": "../src/assets/images/3.png",
+       "cover": "https://i.ibb.co/HGSHM96/4.jpg",
        "title": "Mastering CSS Grid Layout",
        "author": "Emily Johnson",
-       "authorim": "../src/assets/images/girl2.jpg",
+       "authorim": "https://i.ibb.co/N9kwYz5/boy3.png",
        "postdate": "September 9, 2023",
        "readingtime": 12,
        "hashtags": ["CSS", "layout", "webdev"]
      },
      {
        "id": "5",
-       "cover": "https://i.ibb.co/YfC0K9f/330.jpg ",
+       "cover": "https://i.ibb.co/YfC0K9f/330.jpg",
        "title": "JavaScript Best Practices",
        "author": "Michael Brown",
-       "authorim": "../src/assets/images/boy3.png",
+       "authorim": "https://i.ibb.co/JRKZtV1/girl1.jpg",
        "postdate": "September 8, 2023",
        "readingtime": 10,
        "hashtags": ["JavaScript", "bestpractices", "coding"]
