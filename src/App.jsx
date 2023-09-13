@@ -15,15 +15,19 @@ function App() {
 
   // 01 bookmark handeler
   const handleAddToBookmark = blog => {
-      const newBookmarks = [...bookmarks, blog]
-      setBookmark(newBookmarks)
+    const newBookmarks = [...bookmarks, blog]
+    setBookmark(newBookmarks)
   }
 
   // 02 readingTime handeler
-  const handelReadingTimeCount = time => {
-      // console.log('marking as read', time);
-      const newreadingTime = readingTime + time
-      setReadingTime(newreadingTime)
+  const handelReadingTimeCount = (id, time) => {
+    // console.log('marking as read', time);
+    const newreadingTime = readingTime + time
+    setReadingTime(newreadingTime)
+
+    // console.log('remove bookmark', id);
+    const remainingBookmarks = bookmarks.filter(bookmark => bookmark.id !== id)
+    setBookmark(remainingBookmarks)
   }
 
 
@@ -31,22 +35,22 @@ function App() {
   return (
     <>
 
-    <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4">
         <Header></Header>
 
         <div className=" md:flex gap-5">
-            
-            <Blogs 
+
+          <Blogs
             handleAddToBookmark={handleAddToBookmark}
             handelReadingTimeCount={handelReadingTimeCount}
-            ></Blogs>
+          ></Blogs>
 
-            <Bookmarks 
+          <Bookmarks
             bookmarks={bookmarks}
             readingTime={readingTime}
-            ></Bookmarks>
+          ></Bookmarks>
         </div>
-    </div> 
+      </div>
 
     </>
   )
